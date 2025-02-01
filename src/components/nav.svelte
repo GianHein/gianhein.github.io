@@ -42,7 +42,7 @@
 	const links = [
 		{
 			label: m.nav_home(),
-			href: '/',
+			href: '{base}/',
 			icon: home
 		},
 		{
