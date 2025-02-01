@@ -22,7 +22,7 @@
 			preview: `${base}/images/project-portfolio.jpeg`,
 			description: m.projects_portfolio_description(),
 			skills: ['Svelte', 'TailwindCSS', 'Paraglide'],
-			link: '{base}/'
+			link: `${base}/`
 		},
 		{
 			name: 'Jade Engine',

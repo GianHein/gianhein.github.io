@@ -42,22 +42,22 @@
 	const links = [
 		{
 			label: m.nav_home(),
-			href: '{base}/',
+			href: `${base}/`,
 			icon: home
 		},
 		{
 			label: m.nav_projects(),
 			items: [
 				{ label: m.nav_projects_overview(), href: '{base}/projects', icon: shapes },
-				{ label: 'Portfolio', href: '{base}/', icon: check },
+				{ label: 'Portfolio', href: `${base}/`, icon: check },
 				{ label: 'Jade Engine', href: 'https://github.com/gianhein/jade', icon: check, external: true },
-				{ label: 'Pikuma Engine', href: '{base}/projects', icon: trafficCone }
+				{ label: 'Pikuma Engine', href: `${base}/projects`, icon: trafficCone }
 			],
 			icon: pack
 		},
 		{
 			label: m.nav_resume(),
-			href: '{base}/resume',
+			href: `${base}/resume`,
 			icon: fileText
 		}
 		/*
@@ -166,7 +166,7 @@
 						{/each}
 						<div class="mx-2 h-px bg-foreground/20 md:hidden"></div>
 						<Button
-              href="{base}/contact"
+              href={`${base}/contact`}
 							class="mt-2 flex w-full justify-start bg-foreground text-background backdrop-blur-md backdrop-filter hover:bg-foreground/90 md:hidden"
 						>
 							<span class="text-lg">{@html message}</span>
@@ -274,7 +274,7 @@
 			</DropdownMenu.Root>
 
 			<Button
-        href="{base}/contact"
+        href={`${base}/contact`}
 				class="hidden bg-foreground text-background backdrop-blur-md backdrop-filter hover:bg-foreground/90 md:flex"
 			>
 				<span class="text-lg">{@html message}</span>
