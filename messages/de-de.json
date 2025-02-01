@@ -1,0 +1,88 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from de-de!",
+  "nav_home": "Startseite",
+	"nav_projects": "Projekte",
+  "nav_projects_overview": "Übersicht",
+	"nav_resume": "Lebenslauf",
+	"nav_more": "Mehr",
+  "nav_more_books": "Bücher",
+	"nav_contact": "Kontakt",
+
+	"home_tagline": "Informatikstudent an der Humboldt-Universität zu Berlin",
+	"home_view_projects": "Projekte ansehen",
+	"home_contact_me": "Kontaktiere mich",
+
+	"home_skills_web": "Fullstack-Webentwicklung",
+	"home_skills_systems": "Systemprogrammierung",
+	"home_skills_servers": "Linux und Servereinrichtung",
+	"home_skills_vimarchbtw": "Ich benutze Vim und Arch, btw",
+
+  "resume_title": "Lebenslauf",
+
+  "resume_heading_info": "Persönliche Daten",
+  "resume_info_name": "Name",
+  "resume_info_birth_date_label": "Geburtsdatum",
+  "resume_info_birth_date_value": "12. Okt 2005",
+  "resume_info_phone": "Mobil",
+  "resume_info_email": "Email",
+
+  "resume_heading_education": "Bildung",
+  "resume_uni_date": "OKT 2024 - HEUTE",
+  "resume_uni_link_name": "Humboldt Universität zu Berlin",
+  "resume_uni_link_location": "Berlin, Deutschland",
+  "resume_uni_name": "Humboldt Universität zu Berlin",
+  "resume_uni_degree": "B.Sc. Informatik",
+  "resume_highschool_date": "AUG 2022 - JUN 2024",
+  "resume_highschool_name": "Kurt-Tucholsky-Oberschule, Berlin Pankow",
+  "resume_highschool_degree_label": "Allgemeine Hochschulreife",
+  "resume_highschool_advanced_courses_label": "Leistungskurse",
+  "resume_highschool_advanced_courses": "Deutsch, Englisch",
+  "resume_highschool_examination_subjects_label": "Prüfungsfächer",
+  "resume_highschool_examination_subjects": "Geschichte, Politikwissenschaften, Informatik",
+
+  "resume_heading_work_experience": "Praxiserfahrung",
+  "resume_work_experience_0_date": "2018 - 2019",
+  "resume_work_experience_0_name": "Leitung eines Programmierkurses",
+  "resume_work_experience_0_description": "Python, Java, Webentwicklung",
+  
+  "resume_work_experience_1_date": "MAI 2020",
+  "resume_work_experience_1_company_location": "Berlin, Deutschland",
+  "resume_work_experience_1_name": "Praktikant Anwendungsentwicklung",
+  "resume_work_experience_1_description": "Grundlagen von C# und .NET -entwicklung",
+
+  "resume_work_experience_2_date": "JUN 2020 - JUL 2020",
+  "resume_work_experience_2_name": "Praktikant Anwendungsentwicklung",
+  "resume_work_experience_2_description": "Arbeit an internen Tools mit Golang und der Azure DevOps API",
+
+  "resume_work_experience_3_date": "MAI 2022",
+  "resume_work_experience_3_name": "Praktikant Webentwicklung",
+  "resume_work_experience_3_description": "Einführung in CI/CD mit Azure DevOps Pipelines; grundlegende API-Entwicklung, React.js",
+
+  "resume_work_experience_4_date": "MÄR 2023",
+  "resume_work_experience_4_company_location": "Berlin, Deutschland",
+  "resume_work_experience_4_name": "Praktikant Webentwicklung",
+  "resume_work_experience_4_description": "Einführung in Svelte und SvelteKit, grundlegende API-Entwicklung und Arbeit mit PocketBase",
+
+  "resume_heading_skills": "Kompetenzen",
+
+  "projects_title": "Projekte",
+  "projects_status_finished": "Fertiggestellt",
+  "projects_status_in_progress": "In Arbeit",
+
+  "projects_description": "Hier sind einige Projekte, an denen ich gearbeitet habe. Klicken Sie auf ein Projekt, um mehr darüber zu erfahren.",
+  "projects_portfolio_title": "Portfolio Webseite",
+  "projects_portfolio_date": "JAN 2025",
+  "projects_view_project": "Projekt ansehen",
+  "projects_portfolio_description": "Meine persönliche Portfolio Webseite, entwickelt mit SvelteKit und TailwindCSS",
+  "projects_jade_date": "DEZ 2024 - MÄR 2025",
+  "projects_jade_description": "Eine kleine 2D Game Engine, entwickelt in Java mit LWJGL und einem auf Dear ImGui basierenden Editor",
+  "projects_pikuma_date": "FEB 2025 - HEUTE",
+  "projects_pikuma_description": "Eine SDL-basierte 2D Game Engine, geschrieben in C++ mit Skripting-Support für Lua",
+
+  "contact_title": "Kontakt",
+  "contact_description": "Kontaktieren Sie mich über eine der folgenden Methoden.",
+  "contact_email": "Email",
+  "contact_phone": "Mobil",
+  "contact_linkedin": "LinkedIn Profil"
+}

@@ -1,0 +1,88 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+  "nav_home": "Home",
+	"nav_projects": "Projects",
+  "nav_projects_overview": "Overview",
+	"nav_resume": "Resume",
+	"nav_more": "More",
+  "nav_more_books": "Books",
+	"nav_contact": "Contact",
+
+  "home_tagline": "CS student at Humboldt University Berlin",
+  "home_view_projects": "View Projects",
+  "home_contact_me": "Contact Me",
+
+  "home_skills_web": "Fullstack Web Development",
+  "home_skills_systems": "Systems Programming",
+  "home_skills_servers": "Linux and Server Setup",
+  "home_skills_vimarchbtw": "I use Vim and Arch BTW",
+
+  "resume_title": "Resume",
+
+  "resume_heading_info": "Personal Information",
+  "resume_info_name": "Name",
+  "resume_info_birth_date_label": "Birth Date",
+  "resume_info_birth_date_value": "Oct 12th 2005",
+  "resume_info_phone": "Phone",
+  "resume_info_email": "Email",
+
+  "resume_heading_education": "Education",
+  "resume_uni_date": "OCT 2024 - NOW",
+  "resume_uni_link_name": "Humboldt Universität zu Berlin",
+  "resume_uni_link_location": "Berlin, Germany",
+  "resume_uni_name": "Humboldt University Berlin",
+  "resume_uni_degree": "B.Sc. Computer Science",
+  "resume_highschool_date": "AUG 2022 - JUN 2024",
+  "resume_highschool_name": "Kurt-Tucholsky-Oberschule, Berlin Pankow",
+  "resume_highschool_degree_label": "Higher Education Entrance Qualification (A-Levels)",
+  "resume_highschool_advanced_courses_label": "Advanced Courses",
+  "resume_highschool_advanced_courses": "German, English",
+  "resume_highschool_examination_subjects_label": "Examination Subjects",
+  "resume_highschool_examination_subjects": "History, Political Science, Computer Science",
+
+  "resume_heading_work_experience": "Work Experience",
+  "resume_work_experience_0_date": "2018 - 2019",
+  "resume_work_experience_0_name": "Led a Programming Course",
+  "resume_work_experience_0_description": "Python, Java, web development",
+  
+  "resume_work_experience_1_date": "MAY 2020",
+  "resume_work_experience_1_company_location": "Berlin, Germany",
+  "resume_work_experience_1_name": "Software Engineer Intern",
+  "resume_work_experience_1_description": "Basic C# and .NET programming",
+
+  "resume_work_experience_2_date": "JUN 2020 - JUL 2020",
+  "resume_work_experience_2_name": "Software Engineer Intern",
+  "resume_work_experience_2_description": "Worked on internal tools with Golang and the Azure DevOps API",
+
+  "resume_work_experience_3_date": "MAY 2022",
+  "resume_work_experience_3_name": "Web Developer Intern",
+  "resume_work_experience_3_description": "Learned about CI/CD via Azure DevOps Pipelines; basic API development, React frontend work",
+
+  "resume_work_experience_4_date": "MAR 2023",
+  "resume_work_experience_4_company_location": "Berlin, Germany",
+  "resume_work_experience_4_name": "Web Developer Intern",
+  "resume_work_experience_4_description": "Learned to work with Svelte and SvelteKit, write basic API's and use PocketBase",
+
+  "resume_heading_skills": "Skills",
+
+  "projects_title": "Projects",
+  "projects_status_finished": "Finished",
+  "projects_status_in_progress": "In Progress",
+
+  "projects_description": "Here are some of the projects I've worked on. Click on a project to learn more about it.",
+  "projects_portfolio_title": "Portfolio Website",
+  "projects_portfolio_date": "JAN 2025",
+  "projects_view_project": "View Project",
+  "projects_portfolio_description": "My personal portfolio website, built with SvelteKit and TailwindCSS",
+  "projects_jade_date": "DEC 2024 - MAR 2025",
+  "projects_jade_description": "A small 2D game engine, developed in Java with LWJGL and an editor based on Dear ImGui",
+  "projects_pikuma_date": "FEB 2024 - NOW",
+  "projects_pikuma_description": "An SDL based 2D game engine, written in C++ with a Lua scripting interface",
+
+  "contact_title": "Contact",
+  "contact_description": "Contact me using one of the following methods.",
+  "contact_email": "Email",
+  "contact_phone": "Phone",
+  "contact_linkedin": "LinkedIn Profile"
+}
