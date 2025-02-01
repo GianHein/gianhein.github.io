@@ -1,5 +1,5 @@
 <script>
-	import Nav from '$components/Nav.svelte';
+	import Nav from '$components/nav.svelte';
 
   import { base } from '$app/paths';
   import { page } from '$app/stores';
