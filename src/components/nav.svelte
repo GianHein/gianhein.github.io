@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { i18n } from '$lib/i18n';
 	import { page } from '$app/state';
 	import { goto } from '$app/navigation';
@@ -47,10 +48,10 @@
 		{
 			label: m.nav_projects(),
 			items: [
-				{ label: m.nav_projects_overview(), href: '/projects', icon: shapes },
-				{ label: 'Portfolio', href: '/', icon: check },
+				{ label: m.nav_projects_overview(), href: '{base}/projects', icon: shapes },
+				{ label: 'Portfolio', href: '{base}/', icon: check },
 				{ label: 'Jade Engine', href: 'https://github.com/gianhein/jade', icon: check, external: true },
-				{ label: 'Pikuma Engine', href: '/projects', icon: trafficCone }
+				{ label: 'Pikuma Engine', href: '{base}/projects', icon: trafficCone }
 			],
 			icon: pack
 		},

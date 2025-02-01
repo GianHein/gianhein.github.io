@@ -64,12 +64,12 @@
 					<div class="flex flex-col items-center">
 						<p class="text-2xl">{m.home_tagline()}</p>
 						<div class="mt-6 flex w-full flex-col gap-4 md:max-w-md md:flex-row md:justify-center">
-							<Button href="/projects" size="lg" class="text-lg font-normal">
+							<Button href="{base}/projects" size="lg" class="text-lg font-normal">
 								{m.home_view_projects()}
 								<span class="text-lg">{@html arrowRight}</span>
 							</Button>
 							<Button
-                href="/contact"
+                href="{base}/contact"
 								variant="outline"
 								class="border-foreground/20 bg-foreground/5 text-lg font-normal backdrop-blur-md backdrop-filter hover:bg-foreground/20 hover:text-foreground"
 								size="lg"
