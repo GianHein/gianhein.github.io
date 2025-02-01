@@ -3,7 +3,7 @@
 
 	import { arrowUpRight } from '$lib/icons';
 
-	import Nav from '$components/Nav.svelte';
+	import Nav from '$components/nav.svelte';
 </script>
 
 <svelte:head>

@@ -5,7 +5,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import { Badge } from '$lib/components/ui/badge/index.js';
 
-	import Nav from '$components/Nav.svelte';
+	import Nav from '$components/nav.svelte';
 
 	import { arrowRight } from '$lib/icons';
 

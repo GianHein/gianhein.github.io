@@ -1,7 +1,7 @@
 <script>
 	import * as m from '$lib/paraglide/messages.js';
 
-	import Nav from '$components/Nav.svelte';
+	import Nav from '$components/nav.svelte';
 
 	const technologies = [
 		{

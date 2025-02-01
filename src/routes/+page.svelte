@@ -3,7 +3,7 @@
 
 	import { base } from '$app/paths';
 
-	import Nav from '$components/Nav.svelte';
+	import Nav from '$components/nav.svelte';
 	// import Licensing from '$components/licensing.svelte';
 
 	import { Button } from '$lib/components/ui/button';
