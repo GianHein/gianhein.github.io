@@ -42,14 +42,14 @@
 	const links = [
 		{
 			label: m.nav_home(),
-			href: `${base}/`,
+			href: `${base}`,
 			icon: home
 		},
 		{
 			label: m.nav_projects(),
 			items: [
 				{ label: m.nav_projects_overview(), href: `${base}/projects`, icon: shapes },
-				{ label: 'Portfolio', href: `${base}/`, icon: check },
+				{ label: 'Portfolio', href: `${base}`, icon: check },
 				{ label: 'Jade Engine', href: 'https://github.com/gianhein/jade', icon: check, external: true },
 				{ label: 'Pikuma Engine', href: `${base}/projects`, icon: trafficCone }
 			],
@@ -92,7 +92,7 @@
 					<div
 						class="flex items-center gap-2 rounded-full bg-foreground/30 px-4 py-1.5 backdrop-blur backdrop-filter transition-colors hover:bg-foreground/40"
 					>
-						Menu
+						{m.nav()}
 						<span>
 							{@html chevronDown}
 						</span>
