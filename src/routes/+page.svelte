@@ -58,7 +58,7 @@
 				class="flex h-screen w-full flex-col bg-gradient-to-t from-background via-transparent to-background/50 px-6"
 			>
 				<div class="mx-auto md:mt-16 flex w-full max-w-7xl items-center justify-center">
-					<img src="/images/gian-hein.png" alt="Gian Hein" class="mt-24 h-auto w-full" />
+					<img src={`${base}/images/gian-hein.png`} alt="Gian Hein" class="mt-24 h-auto w-full" />
 				</div>
 				<div class="mx-auto mt-12 flex w-full max-w-7xl flex-1 items-end justify-center pb-28">
 					<div class="flex flex-col items-center">

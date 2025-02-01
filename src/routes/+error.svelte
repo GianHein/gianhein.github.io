@@ -1,6 +1,6 @@
 <script>
-	import Nav from '$components/nav.svelte';
-
+  import Nav from '$components/nav.svelte';
+  
   import { base } from '$app/paths';
   import { page } from '$app/stores';
 </script>
