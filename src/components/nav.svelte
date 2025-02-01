@@ -57,7 +57,7 @@
 		},
 		{
 			label: m.nav_resume(),
-			href: '/resume',
+			href: '{base}/resume',
 			icon: fileText
 		}
 		/*
@@ -166,7 +166,7 @@
 						{/each}
 						<div class="mx-2 h-px bg-foreground/20 md:hidden"></div>
 						<Button
-              href="/contact"
+              href="{base}/contact"
 							class="mt-2 flex w-full justify-start bg-foreground text-background backdrop-blur-md backdrop-filter hover:bg-foreground/90 md:hidden"
 						>
 							<span class="text-lg">{@html message}</span>
@@ -274,7 +274,7 @@
 			</DropdownMenu.Root>
 
 			<Button
-        href="/contact"
+        href="{base}/contact"
 				class="hidden bg-foreground text-background backdrop-blur-md backdrop-filter hover:bg-foreground/90 md:flex"
 			>
 				<span class="text-lg">{@html message}</span>
